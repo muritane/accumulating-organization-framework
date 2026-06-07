@@ -1,6 +1,6 @@
 # Accumulating Organization Framework
 
-## Dynamics, Viability, and Dependency Structure
+## Viability, Jurisdiction, and Open-Ended Organizational Accumulation
 
 ---
 
@@ -8,33 +8,44 @@
 
 The Accumulating Organization Framework proposes that complexity accumulates through persistent abstractions.
 
-A persistent abstraction is an organizational structure that remains available for future composition despite ongoing degradation and lower-level change.
+A persistent abstraction is an organizational structure that maintains a constrained state-space and remains available for future composition despite degradation and lower-level change.
 
-This document develops the dynamic component of the framework.
+Accumulation occurs when persistent abstractions remain viable, reusable, and composable for longer than they are degraded or lost.
 
-Its central claim is that accumulation is governed by organizational viability.
+The central dynamic quantity of the framework is organizational viability.
 
-Persistent abstractions survive only when sufficient viability is maintained.
+Viability determines whether an abstraction can continue preserving its organizational structure through time.
 
-Accumulation occurs when viable abstractions are retained, reused, and composed faster than they are degraded or lost.
-
-Open-ended accumulation requires viability to be maintained simultaneously across multiple interdependent layers.
+Open-ended accumulation requires viability to remain above persistence thresholds across multiple interdependent layers simultaneously.
 
 ---
 
-# Part I: Primitive Quantities
+# Part I: Primitive Objects
 
 ## 1. Persistent Abstraction
 
-A persistent abstraction is an organizational structure that:
+A persistent abstraction is an organizational structure defined by:
+
+```text
+A = (S,T,I,D)
+```
+
+where:
+
+```text
+S = admissible states
+T = admissible transitions
+I = interfaces
+D = dependencies
+```
+
+A persistent abstraction:
 
 * preserves recognizable identity,
-* maintains jurisdiction over a region of state-space,
-* supports admissible transitions,
+* constrains a state-space,
+* governs admissible transitions,
 * exposes reusable interfaces,
 * remains available for future composition.
-
-Persistent abstractions are the primary units of accumulation.
 
 Examples include:
 
@@ -44,104 +55,202 @@ Examples include:
 * persons,
 * institutions,
 * software systems,
-* knowledge structures.
+* scientific theories.
+
+Persistent abstractions are the primary units of accumulation.
 
 ---
 
-## 2. Organizational Viability
+## 2. State-Space
 
-Organizational viability is the capacity of an abstraction to continue existing as a persistent abstraction.
+A state-space is the set of organizationally admissible states.
 
-Viability is the central dynamic quantity of the framework.
+An abstraction exists only while its state remains inside its admissible state-space.
 
-High viability implies persistence is likely.
+Crossing state-space boundaries constitutes organizational failure.
 
-Low viability implies collapse is likely.
-
-Viability depends upon:
-
-* maintenance,
-* jurisdiction,
-* reachability,
-* interface integrity,
-* environmental compatibility,
-* resource availability.
-
-Viability is opposed by degradation.
-
----
-
-## 3. Persistence
-
-Persistence is realized viability across time.
-
-Persistence is not binary.
-
-Abstractions may exhibit:
+Examples:
 
 ```text
-high persistence
-moderate persistence
-low persistence
+living cell
+→ viable metabolic states
+
+software protocol
+→ valid protocol states
+
+legal system
+→ legally recognized institutional states
 ```
 
-Persistence emerges from sustained viability.
+---
+
+## 3. Transition Structure
+
+Every abstraction defines a set of admissible state transitions.
+
+```text
+T ⊆ S × S
+```
+
+Organization consists not only of states but also of constraints on transitions.
+
+Loss of transition structure reduces viability.
 
 ---
 
-## 4. Jurisdiction
+## 4. Interface
 
-Jurisdiction is the degree to which an abstraction regulates state transitions within a claimed region of state-space.
+An interface specifies permissible interactions between abstractions.
 
-Jurisdiction measures organizational control.
+Interfaces expose organizational functionality while preserving abstraction boundaries.
 
-High jurisdiction implies:
+Composition occurs through interfaces.
+
+---
+
+## 5. Dependency Structure
+
+Every abstraction depends upon supporting abstractions.
+
+Dependencies form a support network:
 
 ```text
-state transitions
-primarily governed internally
+G = (A,E)
 ```
 
-Low jurisdiction implies:
+where:
 
 ```text
-state transitions
-primarily governed externally
+A = abstractions
+E = dependency relations
+```
+
+No abstraction is implementation-free.
+
+---
+
+# Part II: Organizational Quantities
+
+## 6. Viability
+
+Viability is the capacity of an abstraction to preserve its organizational state-space through time.
+
+Viability is represented by:
+
+```text
+V_i(t)
+```
+
+Viability is the primary dynamic variable of the framework.
+
+---
+
+## 7. Jurisdiction
+
+Jurisdiction is the region of state-space whose admissible transitions are defined by an abstraction.
+
+Conceptually:
+
+```text
+J(A)
+=
+state-space governed by A
+```
+
+Jurisdiction measures organizational authority rather than physical control.
+
+Examples:
+
+```text
+cell
+→ metabolic transition space
+
+operating system
+→ process transition space
+
+government
+→ legal transition space
 ```
 
 Loss of jurisdiction reduces viability.
 
 ---
 
-## 5. Reachability
+## 8. Reachability
 
-Reachability is the ability of an abstraction to be discovered, referenced, accessed, or utilized through valid organizational pathways.
+Reachability is the existence of valid organizational paths through which an abstraction may be accessed, referenced, or utilized.
+
+Represented by:
+
+```text
+R_i
+```
 
 Examples include:
 
 * memory references,
-* physical accessibility,
+* network routes,
 * legal recognition,
-* social recognition,
-* network addressing.
+* discoverable archives,
+* addressable software.
 
-Loss of reachability reduces viability.
-
----
-
-## 6. Interface Integrity
-
-Interface integrity measures the reliability of interactions between abstractions.
-
-Composition requires interface integrity.
-
-Broken interfaces reduce viability.
+An abstraction may persist physically while becoming organizationally unreachable.
 
 ---
 
-## 7. Degradation
+## 9. Interface Integrity
+
+Interface integrity measures preservation of interface semantics.
+
+Represented by:
+
+```text
+I_i
+```
+
+Interface integrity is high when interactions preserve intended organizational meaning.
+
+Interface integrity may fail through:
+
+* corruption,
+* drift,
+* incompatibility,
+* semantic mismatch.
+
+---
+
+## 10. Maintenance
+
+Maintenance consists of processes that preserve organizational structure.
+
+Represented by:
+
+```text
+M_i
+```
+
+Examples:
+
+* repair,
+* metabolism,
+* governance,
+* debugging,
+* institutional renewal,
+* error correction.
+
+Maintenance opposes degradation.
+
+---
+
+## 11. Degradation
 
 Degradation is the tendency of organization to lose structure.
+
+Represented by:
+
+```text
+D_i
+```
 
 Examples include:
 
@@ -149,341 +258,285 @@ Examples include:
 * corruption,
 * forgetting,
 * decay,
-* drift,
-* extinction.
+* extinction,
+* interface drift.
 
 Degradation acts continuously.
 
 ---
 
-## 8. Maintenance
-
-Maintenance consists of processes that oppose degradation.
-
-Examples include:
-
-* repair,
-* metabolism,
-* error correction,
-* administration,
-* infrastructure replacement,
-* institutional renewal.
-
-Maintenance increases viability.
-
----
-
-# Part II: Core Axioms
-
-## Axiom 1: Persistence Axiom
-
-Accumulation operates on persistent abstractions rather than transient states.
-
-Only persistent abstractions can reliably participate in future composition.
-
----
-
-## Axiom 2: Viability Axiom
-
-Every persistent abstraction possesses a level of organizational viability.
-
-Persistence depends upon viability.
-
----
-
-## Axiom 3: Maintenance Axiom
-
-Viability requires maintenance.
-
-Without maintenance, degradation eventually dominates.
-
----
-
-## Axiom 4: Jurisdiction Axiom
-
-Every persistent abstraction maintains nonzero jurisdiction over a region of state-space.
-
-Loss of jurisdiction reduces viability.
-
----
-
-## Axiom 5: Interface Axiom
-
-Composition requires functioning interfaces.
-
-Interface failure reduces viability and limits accumulation.
-
----
-
-## Axiom 6: Retention Axiom
-
-Accumulation requires retention.
-
-Organization that cannot be retained cannot accumulate.
-
----
-
-## Axiom 7: Dependency Axiom
-
-Every abstraction depends upon one or more lower-level implementations.
-
-No abstraction is implementation-free.
-
----
-
-## Axiom 8: Reusability Axiom
-
-Retention alone is insufficient.
-
-Accumulation requires retained abstractions to remain reusable.
-
----
-
 # Part III: Viability Dynamics
 
-## 9. Viability Principle
+## 12. Viability Equation
 
-Viability increases when organizational support exceeds organizational loss.
+Viability evolves according to:
+
+```text
+dV_i/dt
+=
+F(
+M_i,
+D_i,
+R_i,
+I_i,
+S_i
+)
+```
+
+where:
+
+```text
+S_i
+=
+dependency support
+```
+
+A simple approximation is:
+
+```text
+dV_i/dt
+=
+α_M M_i
++
+α_R R_i
++
+α_I I_i
++
+α_S S_i
+-
+α_D D_i
+```
+
+The precise form may vary between domains.
+
+---
+
+## 13. Dependency Support
+
+Supporting abstractions contribute viability.
 
 Conceptually:
 
 ```text
-viability
-∝
-maintenance
-+
-jurisdiction
-+
-reachability
-+
-interface integrity
-+
-resource support
--
-degradation
+S_i
+=
+Σ w_ij V_j
 ```
 
-This expression is schematic rather than quantitative.
+over supporting abstractions.
+
+Support increases viability.
+
+Support failure reduces viability.
 
 ---
 
-## 10. Persistence Threshold
+## 14. Persistence Threshold
 
-Every abstraction possesses a minimum viability threshold.
-
-If:
+Every abstraction possesses a persistence threshold:
 
 ```text
-V > T
+T_i
 ```
 
-the abstraction tends toward persistence.
-
-If:
+Persistence tends to occur when:
 
 ```text
-V < T
+V_i > T_i
 ```
 
-the abstraction tends toward collapse.
-
-Where:
+Collapse tends to occur when:
 
 ```text
-V = viability
-T = persistence threshold
+V_i < T_i
 ```
 
 ---
 
-## 11. Viability Reserve
+## 15. Collapse Tolerance
 
-Abstractions may possess excess viability beyond immediate requirements.
+Temporary viability failures need not produce collapse.
 
-This reserve provides resilience against:
-
-* shocks,
-* damage,
-* environmental variation,
-* temporary maintenance failures.
-
-Systems with larger viability reserves tend to persist longer.
-
----
-
-## 12. Viability Collapse
-
-Collapse occurs when viability remains below persistence threshold for sufficient duration.
-
-Collapse may result from:
-
-* degradation,
-* maintenance failure,
-* jurisdiction loss,
-* interface failure,
-* resource depletion,
-* dependency collapse.
-
----
-
-# Part IV: Necessary Constraints
-
-## 13. Maintenance Constraint
-
-No abstraction can persist indefinitely without maintenance.
-
----
-
-## 14. Reachability Constraint
-
-Unreachable abstractions cannot reliably participate in future accumulation.
-
----
-
-## 15. Interface Constraint
-
-Broken interfaces prevent composition regardless of component survival.
-
----
-
-## 16. Jurisdiction Constraint
-
-Insufficient jurisdiction reduces viability and eventually causes fragmentation.
-
----
-
-## 17. Retention Constraint
-
-Retention duration must exceed reuse duration.
-
-Otherwise accumulation fails.
-
----
-
-## 18. Reusability Constraint
-
-Retained organization contributes to accumulation only if future systems can reuse it.
-
----
-
-# Part V: Dependency Structure
-
-## 19. Layer Dependency Principle
-
-Every layer depends upon lower supporting layers.
-
-Examples:
+Each abstraction possesses a tolerance duration:
 
 ```text
-chemistry
-depends on
-particle stability
+τ_i
 ```
 
-```text
-biology
-depends on
-chemistry
-```
+Collapse occurs when:
 
 ```text
-institutions
-depends on
-persistent persons
+V_i < T_i
+```
+
+for:
+
+```text
+Δt > τ_i
 ```
 
 ---
 
-## 20. Dependency Cascade Principle
+## 16. Viability Reserve
 
-If supporting viability collapses:
-
-```text
-V(N−1)
-→ 0
-```
-
-then eventually:
+Viability reserve is excess viability above threshold:
 
 ```text
-V(N)
-→ 0
+B_i
+=
+V_i - T_i
 ```
 
-unless an alternative implementation exists.
+Viability reserve provides resilience against shocks.
 
 ---
 
-## 21. Alternative Implementation Principle
+# Part IV: Retention and Reuse
 
-An abstraction may preserve viability by migrating to a new implementation.
+## 17. Retention
+
+Retention is the persistence of an abstraction through time.
+
+Represented by:
+
+```text
+P_i
+```
+
+Retention preserves organizational availability.
+
+---
+
+## 18. Reuse
+
+Reuse is participation in future compositions.
+
+Represented by:
+
+```text
+λ_i
+```
+
+Retention without reuse does not contribute to accumulation.
+
+---
+
+## 19. Composition
+
+Composition occurs when abstractions interact through interfaces to create new abstractions.
+
+Composition is the primary mechanism of complexity growth.
+
+---
+
+## 20. Stabilization
+
+Stabilization occurs when viability remains above threshold for sufficient duration.
+
+Stabilized organization becomes a persistent abstraction.
+
+---
+
+# Part V: Alternative Implementations
+
+## 21. Implementation Independence
+
+Persistent abstractions are distinct from their implementations.
+
+Let:
+
+```text
+P
+```
+
+denote an abstraction.
+
+Let:
+
+```text
+H_1,H_2,...,H_n
+```
+
+denote implementations.
+
+Then:
+
+```text
+P
+```
+
+may survive implementation replacement.
+
+---
+
+## 22. Migration
+
+Migration occurs when an abstraction transitions between implementations.
 
 Examples:
 
 ```text
 oral memory
 → writing
-```
 
-```text
 paper archive
 → digital archive
-```
 
-```text
 software
 → replacement hardware
 ```
 
-Accumulation therefore depends on abstraction viability rather than material permanence.
+Accumulation depends on abstraction viability rather than material permanence.
+
+---
+
+## 23. Redundancy
+
+Multiple implementations may support the same abstraction.
+
+Redundancy increases persistence.
 
 ---
 
 # Part VI: Emergence Dynamics
 
-## 22. Candidate Generation
+## 24. Candidate Generation
 
 Generation produces candidate abstractions.
 
-Examples include:
+Examples:
 
 * physical interaction,
 * mutation,
 * invention,
-* learning,
-* experimentation.
+* experimentation,
+* learning.
 
 ---
 
-## 23. Selection
+## 25. Selection
 
-Selection filters candidate abstractions according to viability constraints.
-
-Most generated candidates fail.
-
-Only a minority remain viable.
+Selection removes candidates whose viability fails to exceed persistence thresholds.
 
 ---
 
-## 24. Stabilization
+## 26. Stabilization
 
-Stabilization occurs when viability remains above persistence threshold for sufficient duration.
-
-Stabilization transforms transient organization into persistent abstraction.
+Successful candidates become persistent abstractions.
 
 ---
 
-## 25. Composition
+## 27. Reuse
 
-Persistent abstractions interact through interfaces to create larger abstractions.
+Persistent abstractions become available for future composition.
 
 ---
 
-## 26. Layer Emergence Criterion
+## 28. Layer Formation
 
-A new layer emerges when stabilized compositions become reusable units for future composition.
+A new layer emerges when stabilized abstractions become reusable building blocks for higher-order compositions.
 
-The general sequence is:
+General sequence:
 
 ```text
 generation
@@ -497,180 +550,171 @@ generation
 
 ---
 
-# Part VII: Accumulation Dynamics
+# Part VII: Organizational Accumulation
 
-## 27. Accumulation Condition
+## 29. Organizational Stock
 
-Accumulation occurs when viable retained reusable organization grows faster than it is lost.
-
-Conceptually:
+Define organizational stock:
 
 ```text
-organizational gain
->
-organizational loss
+O(t)
+```
+
+representing total viable reusable organization.
+
+One possible approximation is:
+
+```text
+O(t)
+=
+Σ V_i λ_i
 ```
 
 ---
 
-## 28. Stagnation Condition
+## 30. Accumulation Equation
 
-Accumulation stalls when gains and losses approximately balance.
+Accumulation occurs when:
 
 ```text
-gain
-≈
-loss
+dO/dt > 0
+```
+
+Stagnation occurs when:
+
+```text
+dO/dt = 0
+```
+
+Collapse occurs when:
+
+```text
+dO/dt < 0
 ```
 
 ---
 
-## 29. Collapse Condition
+## 31. Positive Feedback
 
-Accumulation reverses when losses exceed gains.
+Accumulated organization may improve:
 
-```text
-loss
->
-gain
-```
+* maintenance,
+* generation,
+* retention,
+* reachability,
+* interface integrity.
+
+Such feedback can increase future accumulation rates.
 
 ---
 
-## 30. Positive Feedback Principle
+# Part VIII: Dependency Dynamics
 
-Accumulated organization may improve the mechanisms that generate future organization.
+## 32. Layer Dependency Principle
+
+Every layer depends upon lower supporting layers.
 
 Examples:
 
 ```text
-tools
-→ better tools
-```
+chemistry
+depends on
+particle stability
 
-```text
-science
-→ better science
-```
+biology
+depends on
+chemistry
 
-```text
 institutions
-→ better institutions
+depends on
+persistent persons
 ```
 
-Positive feedback may increase future viability.
+---
+
+## 33. Dependency Cascade Principle
+
+If supporting viability collapses:
+
+```text
+V_j → 0
+```
+
+then dependent viability tends to decline.
+
+Dependency failures propagate upward through support structures.
 
 ---
 
-# Part VIII: General Theorems
+## 34. Alternative Support Principle
 
-## Theorem 1: Persistence Bottleneck
+Dependency collapse may be avoided when alternative supporting implementations exist.
 
-Accumulation cannot exceed the persistence capacity of supporting abstractions.
-
----
-
-## Theorem 2: Viability Bottleneck
-
-Accumulation cannot exceed the viability of retained reusable abstractions.
+Migration can interrupt dependency cascades.
 
 ---
 
-## Theorem 3: Interface Bottleneck
+# Part IX: Structural Theorems
 
-Large-scale organization is limited by interface integrity.
+## Theorem 1: Persistence Requirement
 
----
-
-## Theorem 4: Dependency Bottleneck
-
-Higher layers cannot remain more persistent than the lower layers that implement them.
+Only retained abstractions can participate in future composition.
 
 ---
 
-## Theorem 5: Maintenance Requirement
+## Theorem 2: Reuse Requirement
 
-Long-term accumulation requires increasing maintenance capability.
-
-Increasing complexity generally increases maintenance demand.
+Retention without reuse contributes no long-term accumulation.
 
 ---
 
-## Theorem 6: Open-Ended Accumulation Constraint
+## Theorem 3: Dependency Constraint
 
-Open-ended accumulation requires simultaneous maintenance of:
+Without viable supporting abstractions, dependent abstractions eventually lose viability.
+
+---
+
+## Theorem 4: Maintenance Constraint
+
+If maintenance demand grows faster than maintenance capacity, accumulation eventually becomes negative.
+
+---
+
+## Theorem 5: Migration Advantage
+
+Abstractions capable of implementation migration possess greater potential persistence than abstractions bound to single implementations.
+
+---
+
+## Theorem 6: Interface Constraint
+
+Large-scale composition requires preservation of interface semantics.
+
+Interface degradation limits accumulation.
+
+---
+
+## Theorem 7: Open-Ended Accumulation Constraint
+
+Open-ended accumulation requires simultaneous preservation of:
 
 * viability,
-* retention,
 * reachability,
-* jurisdiction,
 * interface integrity,
-* dependency stability.
+* maintenance capacity,
+* dependency support,
+* reuse.
 
-Failure of any component may halt accumulation.
-
----
-
-## Theorem 7: Rarity Principle
-
-Open-ended accumulation requires satisfaction of multiple simultaneous constraints across multiple dependent layers.
-
-Therefore open-ended accumulation should be rare relative to the space of possible organizations.
-
----
-
-# Part IX: Predictions
-
-## Prediction 1
-
-Long-lived systems will evolve increasingly specialized maintenance structures.
-
----
-
-## Prediction 2
-
-Major collapses will frequently originate from lower-layer viability failures.
-
----
-
-## Prediction 3
-
-Accumulation rates will correlate strongly with retention quality.
-
----
-
-## Prediction 4
-
-Interface failures will disproportionately limit large-scale organization.
-
----
-
-## Prediction 5
-
-Systems capable of migrating abstractions between implementations will exhibit greater persistence.
-
----
-
-## Prediction 6
-
-Periods of rapid accumulation will coincide with improvements in viability support mechanisms.
-
-Examples include:
-
-* improved memory,
-* improved maintenance,
-* improved communication,
-* improved governance,
-* improved tooling.
+Failure of any component can halt accumulation.
 
 ---
 
 # General Dynamic Principle
 
-Accumulation is the growth of viable retained reusable organization.
+Persistent abstractions are constrained state-spaces that preserve admissible states, transitions, interfaces, and dependencies through time.
 
-Persistent abstractions emerge through generation, survive through stabilization, persist through maintenance, remain available through retention and reachability, interact through interfaces, and compose into higher layers.
+Viability measures the ability of an abstraction to preserve this organizational structure despite degradation.
 
-Higher layers remain dependent upon lower-layer viability.
+Accumulation occurs when viable abstractions are retained, reused, and composed faster than organizational structure is lost.
 
-Open-ended accumulation occurs only when organizational viability remains above persistence thresholds across all required layers simultaneously.
+Open-ended accumulation requires viability to remain above persistence thresholds across all necessary supporting layers simultaneously.
