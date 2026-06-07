@@ -1,6 +1,6 @@
 # The Accumulating Organization Framework
 
-## A Framework for Persistent Abstractions, Composition, Retention, and Open-Ended Complexity
+## A Framework for Persistent Abstractions, State-Space Jurisdiction, Retention, and Open-Ended Complexity
 
 ---
 
@@ -36,9 +36,9 @@ The central question is:
 
 > How do organizational achievements remain available long enough to become foundations for future achievements?
 
-This framework proposes that accumulation occurs through the discovery, stabilization, retention, reuse, and composition of persistent abstractions.
+This framework proposes that accumulation occurs through the discovery, stabilization, maintenance, retention, reuse, and composition of persistent abstractions.
 
-A persistent abstraction is a maintained claim over a region of state-space that preserves recognizable identity despite lower-level change.
+A persistent abstraction is a maintained organizational claim over a region of state-space that preserves recognizable identity despite lower-level change.
 
 The framework remains agnostic regarding the internal mechanisms of unknown layers.
 
@@ -50,12 +50,13 @@ Only their organizational interfaces are assumed.
 
 ## 1. Persistent Abstractions
 
-A persistent abstraction is a stable equivalence class of lower-level states that:
+A persistent abstraction is a maintained organizational structure that:
 
-* maintains recognizable identity,
+* preserves recognizable identity,
+* governs a region of state-space,
 * tolerates bounded internal variation,
 * exposes reusable interfaces,
-* supports admissible state transitions,
+* permits admissible transitions,
 * participates in higher-level composition.
 
 Examples include:
@@ -66,7 +67,7 @@ Examples include:
 * organisms,
 * persons,
 * institutions,
-* software objects,
+* software processes,
 * memory structures.
 
 A persistent abstraction is not a specific microstate.
@@ -99,26 +100,29 @@ many member arrangements
 same institution
 ```
 
-Accumulation operates on persistent abstractions rather than transient microstates.
+Accumulation operates primarily on persistent abstractions rather than transient microstates.
 
 ---
 
 ## 2. Identity
 
-Identity is persistence of reference across change.
+Identity is continuity of organizational reference across change.
 
-An abstraction remains recognizable despite internal turnover.
+An abstraction remains identifiable when its governing structure, interfaces, and admissible transitions remain sufficiently continuous.
 
-Examples:
+Identity is therefore organizational rather than material.
+
+Examples include:
 
 * atoms exchanging energy,
 * cells replacing molecules,
 * organisms replacing cells,
-* institutions replacing members.
+* institutions replacing members,
+* software objects relocating in memory.
 
-Identity is therefore organizational rather than material.
+Identity does not require material permanence.
 
-The underlying substrate may change while the abstraction remains.
+Identity requires continuity of organizational control.
 
 ---
 
@@ -133,13 +137,13 @@ Examples:
 * charged or discharged,
 * online or offline.
 
-State determines which actions are currently possible.
+State determines which transitions are currently available.
 
 ---
 
 ## 4. Capacity
 
-Capacity describes the potential behavior of an abstraction.
+Capacity describes potential behavior.
 
 Examples:
 
@@ -148,13 +152,13 @@ Examples:
 * a person can learn,
 * an institution can govern.
 
-Capacity exists even when not currently exercised.
+Capacity may exist even when not currently exercised.
 
 ---
 
 ## 5. Admissible Transitions
 
-A persistent abstraction is defined not only by its state but by the transitions it permits.
+Persistent abstractions are defined partly by the transitions they permit.
 
 Examples:
 
@@ -183,15 +187,17 @@ adjudicate
 allocate
 ```
 
-The set of admissible transitions helps define the abstraction itself.
+The space of admissible transitions helps define the abstraction itself.
 
 ---
 
-# Part II: Ownership and Maintenance
+# Part II: Jurisdiction and Interfaces
 
-## 6. Organizational Ownership
+## 6. State-Space Jurisdiction
 
-Persistent abstractions maintain control over regions of state-space.
+Persistent abstractions maintain jurisdiction over regions of state-space.
+
+Jurisdiction means that state transitions within a region are regulated primarily by the abstraction rather than by uncontrolled environmental drift.
 
 Examples:
 
@@ -216,20 +222,51 @@ body
 ```text
 institution
     ↓
-roles and records
+roles
+records
+procedures
 ```
 
-Ownership need not imply conscious control.
+Jurisdiction need not imply consciousness.
 
-Ownership means that state transitions are primarily governed by the abstraction rather than the surrounding environment.
+Jurisdiction describes organizational control.
 
 ---
 
-## 7. Interfaces
+## 7. Effective and Nominal Jurisdiction
+
+A claimed region may or may not remain effectively governed.
+
+Examples:
+
+```text
+effective jurisdiction
+    ↓
+claimed and maintained
+```
+
+```text
+nominal jurisdiction
+    ↓
+claimed but weakly maintained
+```
+
+```text
+failed jurisdiction
+    ↓
+claim persists
+control lost
+```
+
+Accumulation depends primarily on effective jurisdiction.
+
+---
+
+## 8. Interfaces
 
 Abstractions interact through interfaces.
 
-Interfaces allow higher-level organization without requiring access to internal structure.
+Interfaces allow composition without requiring access to internal structure.
 
 Examples:
 
@@ -244,15 +281,43 @@ person → institution
 institution → civilization
 ```
 
-Accumulation depends primarily on interface stability.
+Accumulation depends heavily on interface stability.
 
 ---
 
-## 8. Throughput
+## 9. Reachability
+
+An abstraction must remain discoverable and accessible through valid organizational pathways.
+
+Examples:
+
+```text
+memory pointer
+```
+
+```text
+database reference
+```
+
+```text
+legal record
+```
+
+```text
+social recognition
+```
+
+Loss of reachability threatens persistence even when structure remains.
+
+---
+
+# Part III: Persistence and Maintenance
+
+## 10. Throughput
 
 Persistent abstractions require support.
 
-Throughput may consist of:
+Throughput may include:
 
 * energy,
 * matter,
@@ -271,9 +336,9 @@ Throughput sustains persistence.
 
 ---
 
-## 9. Maintenance
+## 11. Maintenance
 
-Persistence rarely means static existence.
+Persistence rarely implies stasis.
 
 Most abstractions actively maintain themselves.
 
@@ -289,56 +354,38 @@ refresh cycles
 cell
     ↓
 metabolism
+repair
 ```
 
 ```text
 institution
     ↓
 administration
+record keeping
 ```
 
-Maintenance compensates for degradation.
+Maintenance counteracts degradation.
 
 ---
 
-# Part III: Organizational Dynamics
+## 12. Degradation
 
-## 10. Candidate Generation
-
-Systems generate possible abstractions.
-
-Examples include:
-
-* physical interactions,
-* mutation,
-* learning,
-* invention,
-* experimentation.
-
-Without generation, no new abstractions emerge.
-
----
-
-## 11. Selection
-
-Generated possibilities encounter constraints.
+All abstractions experience pressure toward organizational loss.
 
 Examples:
 
-* physical stability,
-* chemical compatibility,
-* biological fitness,
-* predictive accuracy,
-* usefulness,
-* institutional viability.
+* entropy,
+* leakage,
+* corruption,
+* forgetting,
+* extinction,
+* infrastructure decay.
 
-Selection filters possibilities.
-
-The specific mechanism may vary by layer.
+Without maintenance, abstractions dissolve.
 
 ---
 
-## 12. Retention
+## 13. Retention
 
 Retention is persistence across time.
 
@@ -357,7 +404,7 @@ Without retention, accumulation resets.
 
 ---
 
-## 13. Memory
+## 14. Memory
 
 Memory is retained information capable of influencing future organization.
 
@@ -370,47 +417,147 @@ Examples:
 * engineering designs,
 * databases.
 
-Memory is a specialized form of retention.
+Memory is specialized retention.
 
 ---
 
-## 14. Reusability
+## 15. Reusability
 
 Reusability is the capacity of retained abstractions to participate repeatedly in future organization.
 
 Examples:
 
-* atoms participating in chemistry,
-* words participating in language,
-* algorithms participating in software,
-* institutions participating in governance.
+* atoms in chemistry,
+* words in language,
+* algorithms in software,
+* institutions in governance.
 
 Retention preserves existence.
 
-Reusability preserves value.
+Reusability preserves organizational value.
 
 ---
 
-## 15. Degradation
+# Part IV: Organizational Lifecycle
 
-All abstractions experience pressure toward loss.
+## 16. Lifecycle States
 
-Examples include:
+Persistent abstractions may occupy different organizational states.
 
-* entropy,
-* leakage,
-* corruption,
-* forgetting,
-* extinction,
-* infrastructure failure.
+### Live
 
-Without compensation, abstractions dissolve.
+```text
+maintained
+reachable
+active
+```
+
+### Dormant
+
+```text
+maintained
+reachable
+inactive
+```
+
+### Orphaned
+
+```text
+exists
+parent reference lost
+```
+
+### Zombie
+
+```text
+identity persists
+normal agency absent
+```
+
+### Corrupted
+
+```text
+active
+but violating expected behavior
+```
+
+### Dead
+
+```text
+maintenance lost
+organization collapsing
+```
+
+### Garbage-Collected
+
+```text
+unreachable
+retention removed
+```
+
+These states appear across computation, biology, and institutions.
 
 ---
 
-# Part IV: Layer Formation
+# Part V: Organizational Dynamics
 
-## 16. Composition
+## 17. Candidate Generation
+
+Systems generate possible abstractions.
+
+Examples:
+
+* physical interactions,
+* mutation,
+* learning,
+* invention,
+* experimentation.
+
+Without generation, no new abstractions emerge.
+
+---
+
+## 18. Selection
+
+Generated possibilities encounter constraints.
+
+Examples:
+
+* physical stability,
+* chemical compatibility,
+* biological fitness,
+* predictive accuracy,
+* usefulness,
+* institutional viability.
+
+Selection filters possibilities.
+
+The specific mechanism varies across layers.
+
+---
+
+## 19. Stabilization
+
+Not every composition persists.
+
+A composition must become sufficiently stable before accumulation can build upon it.
+
+Examples:
+
+```text
+stable molecule
+stable cell
+stable institution
+stable protocol
+```
+
+Stabilization transforms transient organization into persistent abstraction.
+
+---
+
+# Part VI: Layer Formation
+
+## 20. Composition
 
 Composition occurs when abstractions interact to produce larger abstractions.
 
@@ -426,30 +573,9 @@ algorithms → software systems
 
 Composition is a relation among abstractions.
 
-It is not contained within an abstraction itself.
-
 ---
 
-## 17. Stabilization
-
-Not every composition persists.
-
-A composition must become sufficiently stable before accumulation can build upon it.
-
-Examples:
-
-```text
-stable molecule
-stable cell
-stable institution
-stable protocol
-```
-
-Stabilization transforms transient structures into persistent abstractions.
-
----
-
-## 18. Layer Emergence
+## 21. Layer Emergence
 
 A new layer emerges when stabilized compositions become reusable units for future composition.
 
@@ -476,11 +602,45 @@ new abstractions
 
 ---
 
-## 19. Pending Interface Principle
+## 22. Compression Principle
+
+Persistent abstractions reduce the amount of lower-level detail required for future organization.
+
+Examples:
+
+```text
+atom
+    ↓
+compresses quantum complexity
+```
+
+```text
+cell
+    ↓
+compresses molecular complexity
+```
+
+```text
+person
+    ↓
+compresses biological complexity
+```
+
+```text
+institution
+    ↓
+compresses interpersonal complexity
+```
+
+Accumulation becomes possible because abstractions allow higher layers to operate without reconstructing lower layers.
+
+---
+
+## 23. Pending Interface Principle
 
 Unknown layers need not be assigned speculative internal structure.
 
-Accumulation only requires interfaces between adjacent layers.
+Accumulation requires only interfaces between adjacent layers.
 
 Thus:
 
@@ -494,13 +654,11 @@ Known Layer B
 
 remains a valid representation.
 
-The framework therefore remains open to future discoveries.
-
 ---
 
-# Part V: Recursive Accumulation
+# Part VII: Recursive Accumulation
 
-## 20. Feedback
+## 24. Feedback
 
 Accumulated organization modifies future accumulation.
 
@@ -528,7 +686,7 @@ Accumulation can improve its own mechanisms.
 
 ---
 
-## 21. Accumulation Dynamics
+## 25. Accumulation Dynamics
 
 Let:
 
@@ -536,19 +694,32 @@ Let:
 D = generated possibilities
 S = selected possibilities
 R = retained abstractions
+U = reusable abstractions
+M = maintenance effectiveness
 G = degradation
+B = interface breakage
 A = accumulated organization
 ```
 
 Then:
 
 ```text
-A(t+1) = A(t) + R(S(D)) - G
+A(t+1)
+=
+A(t)
++
+U(R(S(D)))
++
+M
+-
+G
+-
+B
 ```
 
 This expression is conceptual rather than a proven physical law.
 
-Accumulation occurs when retained gains exceed losses.
+Accumulation occurs when retained reusable organization and maintenance exceed degradation and interface loss.
 
 Collapse occurs when losses exceed gains.
 
@@ -558,10 +729,10 @@ Collapse occurs when losses exceed gains.
 
 Reality accumulates complexity through persistent abstractions.
 
-Persistent abstractions maintain identity across lower-level change, preserve admissible state transitions, expose reusable interfaces, and compose into larger abstractions.
+Persistent abstractions maintain jurisdiction over regions of state-space, preserve identity despite lower-level change, expose reusable interfaces, support admissible transitions, and participate in composition.
 
-Accumulation occurs when generation, selection, retention, maintenance, and reuse outpace degradation.
+Accumulation occurs when generation, selection, stabilization, maintenance, retention, and reuse outpace degradation, corruption, and interface failure.
 
-Layered reality emerges through recursive cycles of composition, stabilization, persistence, and feedback.
+Layered reality emerges through recursive cycles of jurisdiction, maintenance, composition, stabilization, persistence, and feedback.
 
 Unknown layers remain unspecified except through their interfaces to adjacent layers.
